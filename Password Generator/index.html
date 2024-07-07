@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Password Generator</title>
+</head>
+<body>
+ <div class="wrapper">
+    <div class="container">
+        <!-- heading -->
+        <h1>PASSWORD GENERATOR</h1>
+      <!-- outputscreen -->
+        <div class="scre">
+     <input readonly placeholder="Password" class="display" data-pass> 
+     <button class="butp">
+        <span data-copyM class="ww"> </span>
+        <i data-but class="fa-regular fa-copy"></i>
+     </button>
+        </div>
+    
+    
+        <!-- mainscreen -->
+        <div class="inputcont">
+    <div><span id="plp">PASSWORD LENGTH</span><span id="plen">0</span></div>
+
+    <!-- slider -->
+      <input type="range" min="1" max="20" step ="1" class="slider">
+
+     <div class="chb"> <input type="checkbox"  id="ch1" checked><label for="ch1">Include UpperCase</label></div>
+   <div class="chb">   <input type="checkbox"  id="ch2"><label for="ch2">Include LowerCase</label></div>
+<div class="chb">      <input type="checkbox"  id="ch3"><label for="ch3">Include Numbers</label></div>
+<div class="chb">      <input type="checkbox"  id="ch4"><label for="ch4">Include Symbols</label></div>
+    
+    
+      <div class="qwe">
+        <span id="stren">Strength</span> <div id="passstrength"></div>
+      </div>
+    
+      <div class="button" id="gen">
+        <div class="box">G</div>
+        <div class="box">E</div>
+        <div class="box">N</div>
+        <div class="box">E</div>
+        <div class="box">R</div>
+         <div class="box">A</div>
+        <div class="box">T</div>
+        <div class="box">E</div>
+    </div>
+        </div>
+       </div>
+ </div>
+ <script src="https://kit.fontawesome.com/6defa69264.js" crossorigin="anonymous"></script>
+ <script src="java.js"></script>
+</body>
+</html>
